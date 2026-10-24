@@ -882,4 +882,6 @@
     <string name="download_default_directory">Đường dẫn mặc định để tải truyện về thiết bị</string>
     <string name="private_app_directory_warning">Đường dẫn này với tất cả dữ liệu của ứng dụng sẽ bị xóa nếu bạn gỡ ứng dụng Kotatsu</string>
     <string name="available_pattern">Hiện có sẵn %1$s</string>
+    <string name="dpi_bypass">Vượt chặn DPI</string>
+    <string name="dpi_bypass_summary">Chia nhỏ gói bắt tay TLS để vượt qua cơ chế chặn bằng kiểm tra gói tin sâu (DPI) của nhà mạng. Nên dùng kèm DNS over HTTPS để đạt hiệu quả tốt nhất. Cần khởi động lại ứng dụng sau khi thay đổi cài đặt này.</string>
 </resources>

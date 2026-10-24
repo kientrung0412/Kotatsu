@@ -74,9 +74,9 @@ interface NetworkModule {
 			proxyAuthenticator(proxyProvider.authenticator)
 			dns(DoHManager(cache, settings))
 			if (settings.isSSLBypassEnabled) {
-				disableCertificateVerification()
+				disableCertificateVerification(settings.isDpiBypassEnabled)
 			} else {
-				installExtraCertificates(contextProvider.get())
+				installExtraCertificates(contextProvider.get(), settings.isDpiBypassEnabled)
 			}
 			cache(cache)
 			addInterceptor(GZipInterceptor())

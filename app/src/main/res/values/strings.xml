@@ -907,4 +907,6 @@
     <string name="download_default_directory">Default directory for downloading manga</string>
     <string name="private_app_directory_warning">This directory with all data will be deleted if you uninstall the application</string>
     <string name="available_pattern">%1$s available</string>
+    <string name="dpi_bypass">Bypass DPI</string>
+    <string name="dpi_bypass_summary">Split the TLS handshake into fragments to bypass deep packet inspection (DPI) based blocking by your ISP. Combine with DNS over HTTPS for best results. Application restarting is required after changing this setting.</string>
 </resources>
